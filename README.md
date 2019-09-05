@@ -1,6 +1,6 @@
-# eviction-analysis
+# Eviction Predictor
 This analysis is an attempt to illuminate some of the stories from the Eviction Lab data on evictions in the United States.
 
-I give special thanks to SophieGarden - their analysis on Renter-Eviction-Predict was referenced often.
+Provided here are notebooks and models that give context for the suggested interpretation by HUD for changing the implementation of the Fair Housing Act's disparate impact standard. HUD is suggesting a deeply flawed approach that would provide legal immunity to any housing services provider that uses "fairness through blindness" by omitting protected classes and direct proxy features from inputs to a model. Such an approach does not address the reality of the capability of current machine learning algorithms to identify historical discrimination against protected classses and reproduce them in their models. The comment period is open until 10/18/19, and I encourage anyone who is troubled by this approach to read the proposal and leave comments [here](https://www.federalregister.gov/documents/2019/08/19/2019-17542/huds-implementation-of-the-fair-housing-acts-disparate-impact-standard).
 
 This research uses data from The Eviction Lab at Princeton University, a project directed by Matthew Desmond and designed by Ashley Gromis, Lavar Edmonds, James Hendrickson, Katie Krywokulski, Lillian Leung, and Adam Porton. The Eviction Lab is funded by the JPB, Gates, and Ford Foundations as well as the Chan Zuckerberg Initiative. More information is found at evictionlab.org.
